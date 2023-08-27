@@ -10,7 +10,7 @@ VFA is a farming technology platform where we work with farmers directly. We at 
 - [@Rahul Kanajariya](https://github.com/kanjariyarahul)
 
 ## Images
---------
+
 ### 1. Virtual Farming Assistant Landing Page
 
 ![vfa1 gimp](https://github.com/KanjariyaRahul/VFA/assets/93303230/5ed972e5-b065-49cb-a8c0-b7f3e92513a8)
