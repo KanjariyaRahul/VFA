@@ -33,7 +33,15 @@ VFA is a farming technology platform where we work with farmers directly. We at 
 
 ### 6. Farmer's Krishi Book View All Crops Disease And Crops Details.
 
-![vfa6](https://github.com/KanjariyaRahul/VFA/assets/93303230/73cd21e4-1701-4a9b-bf48-4f0aaf51648d)
+![vfa6](https://github.com/KanjariyaRahul/VFA/assets/93303230/d3faee19-1f4b-4d9b-86f0-0c7cdf534844)
+
+### 7. Farmer's Settings
+
+![vfa7](https://github.com/KanjariyaRahul/VFA/assets/93303230/873921c6-c2a8-4b33-9c42-9c906763f1fa)
+
+### 8. Virtual Farming Assistant FAQ.
+
+![vfa8](https://github.com/KanjariyaRahul/VFA/assets/93303230/1341c89b-3b21-487d-adcb-7c4e02e94726)
 
 
 
