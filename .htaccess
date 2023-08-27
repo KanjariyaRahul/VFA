@@ -1,0 +1,2 @@
+ErrorDocument 404 http://localhost/vfa/404/
+php_flag display_errors 1

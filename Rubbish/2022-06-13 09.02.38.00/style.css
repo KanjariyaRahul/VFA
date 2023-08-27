@@ -1,0 +1,59 @@
+@import url("google-api-fonts.css");
+/* Root Variables */
+:root {
+  --color-primary: #41f1b6;
+  --color-secondory: #ffbb55;
+  /* --color-primary: #56f80b; */
+  --color-danger: #ff7782;
+  --color-warning: #ffbb55;
+  --color-white: #fff;
+  --color-info-dark: #7d8da1;
+  --color-info-light: #dce1eb;
+  --color-dark: #363949;
+  --color-light: rgba(132, 139, 200, 0.18);
+  --color-primary-variant: #111e88;
+  --color-dark-variant: #677483;
+  --color-background: #f6f6f9;
+
+  --card-border-radius: 2rem;
+  --border-radius-1: 0.4rem;
+  --border-radius-2: 0.8rem;
+  --border-radius-3: 1.2rem;
+
+  --card-padding: 0.7rem;
+  --padding: 1rem;
+
+  --box-shadow: 0 2rem 3rem var(--color-light);
+}
+html {
+  scroll-behavior: smooth;
+  font-size: 16px;
+  font-family: "Baloo 2", cursive;
+}
+
+
+
+@media only screen and (max-width: 1280px) {
+  form {
+    display: none;
+  }
+
+  #home>.container,
+  #testimoni>.container,
+  #start>.container,
+  #blog>.container,
+  #about>.container {
+    padding-top: 2rem !important;
+    padding-bottom: 1rem;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .navb {
+    display: none !important;
+  }
+
+  header>.container {
+    padding: 0.5rem;
+  }
+}

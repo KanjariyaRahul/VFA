@@ -1,0 +1,77 @@
+Sync: Upload Complete. 
+GIST ID: e0eed5ae22a83df1d589108b616cd34f
+Please copy and use this ID in other machines to download settings.
+
+// Windows XAMPP Server Host Address: http://35.81.100.176/
+// Ubuntu Linux Server Address: http://52.89.67.194/ | user = vfa | password = vfa@Password
+
+/Jot Form Website Review Form  
+@ https://app.jotform.com/221865353444458 
+@ https://form.jotform.com/221865348885471
+
+----------------
+System Name List: 
+Farm Care Foundation 
+Healthy Harvest 
+Fresh Returns 
+Fresh Farms 
+Farm Grow
+Planted with Purpose 
+A Farmer’s Touch 
+Grow Ground 
+Fieldly 
+Good Growth 
+
+======================
+
+
+// Logo Direct Link : https://i.postimg.cc/Y0TNZw1n/logo.png
+
+---------------------------------
+1. Class Diagram 
+2. Activity Diagram 
+3. Usecase Diagram
+4. Time line Chart 
+5. ER Diagram
+
+==========================
+1. Cost of quality 
+2. Cost of poor quality
+3. Defect Density 
+4. Review efficiency
+5. Testing Efficiency
+6. Defect removal efficiency
+7. Residual defect density
+
+
+Gantt Chart 
+=========================
+Planning 4-25 | 4-31 
+User UI Designing 5-1 | 5-31
+Admin Ui Designing 5-1 | 6-20
+Database Designing 6-6 | 7-13
+User Backend 6-2 | 7-14
+Admin Backend 6-20 | 7-15
+Weather Report 6-15 | 6-25
+Crop Tracking Logic & Progress 6-26 | 7-5
+Information Collaction 7-1 | 7-14
+Hosting 7-9 | 7-14
+
+************************************
+
+Activity List : 
+--------
+Login 
+Register 
+Add Farm 
+Forgot Password 
+Donation 
+
+************************************
+
+Use case : 
+-------
+Admin : 
+Farmer : 
+
+****************************

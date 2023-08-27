@@ -1,0 +1,146 @@
+.crop-gallary {
+  display: grid;
+  grid-template-columns: 24% 24% 24% 24%;
+  align-items: center;
+  justify-content: center;
+  gap: 0.3rem;
+  padding: 1rem;
+}
+
+.crop-item {
+  color: var(--color-primary);
+  padding: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.crop-item > img {
+  border-radius: 6%;
+  width: 100%;
+  max-height: 7rem;
+  cursor: pointer;
+}
+
+.crop-item > h2 {
+  font-size: large;
+}
+
+.crop-data {
+  position: relative;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+}
+/* 
+.select-dieses {
+  display: none;
+} */
+
+.disease-gallary {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.3rem;
+}
+
+.d-item {
+  box-shadow: var(--box-shadow);
+  background-color: white;
+  /* border-radius: 1rem; */
+}
+
+.d-item > img {
+  vertical-align: middle;
+  width: 100%;
+}
+
+.d-item > h4 {
+  text-align: center;
+}
+button:focus,
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+}
+
+/* Crop-info Cards */
+.card {
+  background-color: var(--color-white);
+  box-shadow: var(--box-shadow);
+  border-radius: 1rem;
+}
+
+.card:hover {
+  box-shadow: none;
+}
+
+.highlight {
+  padding: 0.3rem;
+  background-color: var(--color-primary-variant);
+  font-size: medium;
+  color: white;
+  border-radius: 0.2rem;
+}
+
+.card-body {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.card-body > div {
+  padding: 2rem;
+}
+
+.card-body table {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.card-body table th {
+  font-size: 1.2rem;
+  color: var(--color-primary);
+}
+
+.card-body table td {
+  padding: 0.5rem;
+  background-color: var(--color-white);
+  text-align: center;
+  border-bottom: 1px solid;
+}
+
+main {
+  position: relative;
+}
+
+@media only screen and (max-width: 500px) {
+  .disease-gallary {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .row {
+    flex-direction: column;
+  }
+
+  .col-md-4 {
+    width: 100%;
+  }
+  .crop-gallary {
+    grid-template-columns: 50% 50%;
+  }
+  .crop-add {
+    padding-top: 2rem;
+  }
+  .crop-item > img {
+    width: 100%;
+    height: 6rem;
+  }
+  .card-body {
+    grid-template-columns: 1fr;
+  }
+
+  .card-body > img {
+    width: 100% !important;
+  }
+}

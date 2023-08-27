@@ -1,0 +1,18 @@
+-5 Light Plowing 
+-4 Medium Plowing 
+-3 Fertilizing 
+-2 Cultivation 
+-1 Prepare Seeds 
+0 Sowing 
+1-2 Cultivation 
+10 to 15 Irrigation 
+20 to 25 Insectiside | Cultivation | Weeding 
+35 to 40 Irrigation | Fungicide | Growth Helper 
+45 to 47 Irrigation 
+50 to 53 Cultivation | Pesticide 
+60 to 64 Irrigation | Weed Management 
+70 to 73 Cultivation 
+75 to 80 Growth Helper 
+90+ harvesting 
+++1 Cleaning 
+++2 Selling 

@@ -1,0 +1,87 @@
+.card .top {
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid var(--color-primary);
+  padding: 1rem;
+  background-color: var(--color-dark);
+  /* border-radius: 1rem; */
+  border-top-right-radius: var(--card-border-radius);
+  border-top-left-radius: var(--card-border-radius);
+  color: whitesmoke;
+}
+
+.top h3 {
+  display: flex;
+  align-items: center;
+}
+
+.top h3 span {
+  color: var(--color-primary);
+}
+
+.body {
+  display: flex;
+  padding: 0.5rem;
+  justify-content: space-between;
+}
+
+.body>div{
+  width: 50%;
+  
+}
+
+.large-icon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.today-weather {
+  padding: 0.5rem;
+  display: grid;
+  grid-template-rows: repeat(3, auto);
+  grid-template-columns: repeat(3, 1fr);
+}
+
+sup>span{
+    transform: translate(0px, -15px);
+    color: var(--color-primary);
+    font-weight: 600;
+}
+
+.grid-item {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 0.3rem;
+  padding: 0.5rem;
+  margin: 5px;
+  box-shadow: 0px 0px 3.3px rgba(0, 0, 0, 0.046),
+    0px 0px 26px rgba(0, 0, 0, 0.1);
+}
+
+.grid-item > span,
+.grid-item > h3 {
+  text-align: center;
+}
+
+.wi {
+  color: var(--color-primary);
+}
+
+.grid-item .wi {
+  font-size: 2rem;
+  text-align: center;
+}
+#desc {
+  font-size: 1.3rem;
+}
+@media only screen and (max-width: 500px) {
+  #desc {
+    font-size: 1rem;
+  }
+}

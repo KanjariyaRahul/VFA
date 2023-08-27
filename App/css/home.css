@@ -1,0 +1,420 @@
+main .cards > div {
+  transition: all 300ms ease;
+  margin-top: 2.2%;
+}
+
+main .cards > div span {
+  background-color: var(--color-primary);
+  padding: 0.5rem;
+  border-radius: var(--card-border-radius);
+  color: var(--color-white);
+  font-size: 2rem;
+}
+
+main .cards .card > div.middle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.middle > span {
+  width: 3rem;
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  font-weight: 600;
+  color: var(--color-white);
+}
+main .cards h3 {
+  margin: 1rem 0 0.6rem;
+  font-size: 1rem;
+}
+
+main .cards .progress {
+  position: relative;
+  border-radius: 50%;
+}
+
+main .cards small {
+  display: block;
+  margin-top: 1.6rem;
+}
+
+/* Radial Progress */
+svg.radial-progress {
+  height: 100px;
+  width: 100px;
+  transform: rotate(-90deg);
+}
+
+svg.radial-progress circle {
+  fill: rgba(0, 0, 0, 0);
+  stroke: var(--color-success);
+  stroke-dashoffset: 220;
+  stroke-width: 5;
+}
+
+svg.radial-progress circle.incomplete {
+  opacity: 0.2;
+}
+
+svg.radial-progress circle.complete {
+  stroke-dasharray: 220;
+}
+
+svg.radial-progress text {
+  text-anchor: middle;
+}
+
+.select-btn {
+  width: 100%;
+  height: 100%;
+  outline: none;
+  border: none;
+}
+
+.select-btn.active {
+  background-color: var(--color-primary);
+  color: white;
+}
+
+/* Krishi samachar Cards  */
+.karishi-samachar-card {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 0.5rem;
+}
+
+.karishi-samachar-card > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  align-items: stretch;
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(2px);
+  -moz-backdrop-filter : blur(2px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  overflow: hidden;
+}
+
+/* Text Fade Effect */
+
+.text-fade {
+  line-height: 21px;
+  height: calc(3 * 21px);
+  overflow: hidden;
+  position: relative;
+}
+
+.text-fade::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 21px;
+  width: 75%;
+  background: linear-gradient(90deg, transparent, white);
+}
+
+/* Cards  */
+
+.card {
+  background-color: white;
+  border-radius: var(--card-border-radius);
+  padding: var(--card-padding);
+  box-shadow: var(--box-shadow);
+  margin-bottom: 10px;
+}
+
+.card:hover {
+  box-shadow: none;
+}
+
+/* =========== Select Crop Section =========== */
+.select-crop-section {
+  display: none;
+  z-index: 9999999999;
+}
+.crop-add {
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  background-color: var(--color-white);
+}
+.back-btn {
+  position: relative;
+  top: 0.5rem;
+  left: 0.5rem;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.crop-gallary {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  gap: 0.2rem;
+  padding: 1rem;
+}
+
+.crop-item {
+  color: var(--color-primary);
+  padding: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.crop-item > img {
+  border-radius: 6%;
+  width: 10rem;
+  height: 9rem;
+  cursor: pointer;
+}
+.crop-item > h2 {
+  font-size: large !important;
+}
+/* sowing Date Section */
+.date-of-sowing {
+  display: none;
+  z-index: 99999999992;
+}
+.crop-add-body {
+  width: 100vw;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 3rem;
+}
+
+.date-of-sowing > div > input[type="date"] {
+  width: 50vw;
+  outline: none;
+  border: none;
+  border-radius: 2rem;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+.crop-add-btn {
+  padding: 0.5rem;
+  display: flex;
+  align-content: center;
+  justify-content: space-evenly;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100vw;
+}
+
+.btn {
+  border: none;
+  outline: none;
+  background-color: var(--color-primary);
+  color: white;
+  font-size: 1.2rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
+.btn:hover {
+  border-radius: 2rem;
+  color: var(--color-white);
+  background-color: var(--color-success);
+  transition: all 300ms ease;
+}
+
+.note-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90vw;
+  margin: 50px auto;
+  background-color: #fdf8e1;
+  border-radius: 0.6rem;
+  padding: 0.5rem;
+}
+.note-body {
+  padding: 0.5rem;
+}
+
+.note-icon {
+  font-size: 2rem;
+  padding: 1rem;
+  color: var(--color-primary);
+}
+/* Select area section */
+.add-farm-area {
+  display: none;
+  z-index: 99999999994;
+}
+.crop-add-body > div > input {
+  border: 1px solid;
+  outline: none;
+  background-color: transparent;
+  color: black;
+  padding: 0.5rem;
+  font-size: 1rem;
+  margin: 0.8rem;
+  width: 100px;
+}
+.crop-add-body > div > select {
+  padding: 0.5rem;
+  border: 1px solid;
+  font-size: 1rem;
+  background-color: transparent;
+  color: black;
+  width: 100px;
+}
+.bcard {
+  display: flex;
+  flex-direction: column;
+  word-wrap: break-word;
+  background-color: #fff;
+  -webkit-background-clip: border-box;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+  margin-top: 10px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(var(--bs-gutter-y) * -1);
+  margin-right: calc(var(--bs-gutter-x) * -0.5);
+  margin-left: calc(var(--bs-gutter-x) * -0.5);
+}
+
+.col-md-8 {
+  flex: 0 0 auto;
+  width: 66.66666667%;
+}
+
+.col-md-4 {
+  flex: 0 0 auto;
+  width: 33.33333333%;
+}
+
+.card-body {
+  flex: 1 1 auto;
+  padding: 1rem 1rem;
+}
+
+.rounded-start {
+  border-bottom-left-radius: 0.25rem !important;
+  border-top-left-radius: 0.25rem !important;
+}
+
+.img-fluid {
+  max-width: 100%;
+}
+
+.cat {
+  margin: 4px;
+  border-radius: 4px;
+  overflow: hidden;
+  float: right;
+}
+
+.cat label {
+  float: left;
+  line-height: 3em;
+  width: 8em;
+  height: 3em;
+}
+
+/* Display None */
+.add-water-level {
+  z-index: 99999999995;
+  display: none;
+}
+
+.add-soil-type {
+  display: none;
+  z-index: 99999999994;
+}
+
+.seed-section {
+  display: none;
+  z-index: 99999999991;
+}
+
+#seeds {
+  width: 90vw;
+  padding: 0.8rem;
+  border: none;
+  border-bottom: 1px solid var(--color-primary);
+  outline: none;
+}
+
+@media only screen and (max-width: 500px) {
+  .row {
+    flex-direction: column;
+  }
+
+  .col-md-4 {
+    width: 100%;
+  }
+  .crop-gallary {
+    grid-template-columns: 50% 50%;
+  }
+  .crop-add {
+    padding-top: 2rem;
+  }
+  .crop-item > img {
+    border-radius: 10%;
+    width: 100%;
+    height: 6rem;
+    cursor: pointer;
+  }
+}
+@media only screen and (max-width: 768px) and (min-width: 501px) {
+  .crop-gallary {
+    grid-template-columns: 25% 25% 25% 25%;
+  }
+}
+
+/* The alert message box */
+.alert {
+  padding: 20px;
+  background-color: var(--color-primary);
+  margin-bottom: 15px;
+  box-shadow: var(--box-shadow);
+  border-radius: 1rem;
+  display: none;
+}
+
+.alert > p {
+  color: white;
+}
+
+/* The close button */
+.closebtn { 
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* When moving the mouse over the close button */
+.closebtn:hover {
+  color: var(--color-light);
+}

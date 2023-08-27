@@ -1,0 +1,157 @@
+Change Details when going to Host
+---------------------
+Edit Config.php File  Location : connection/config.php 
+    Changer : Servername, username, password, Database Name 
+
+Make sure to check what is Returned by $_SERVER["PHP_SELF"] in config file or add your domain name instead
+
+<!-- Digtial Ocean -->
+IP: 139.59.72.178
+Password: vfa2023@Password
+
+//MySQL
+Root username : root
+Root Password : root@Password
+
+local username : vfa2023
+local Password : vfa2023@Password
+
+<!-- ORACLE Cloud Machine Details -->
+Root User: root
+password: Root1@Password
+---------
+username : vfa2023
+password: vfa2023@Password
+
+username : vfa
+To Access PhpMyAdmin Password: vfa 
+
+==================
+FontAwsome Kit Code 
+<script src="https://kit.fontawesome.com/c16623e174.js" crossorigin="anonymous"></script>
+
+
+===================
+Blog Template : https://preview.themeforest.net/item/basho-multipurpose-ghost-blog-theme/full_screen_preview/36746216
+
+===============
+CSS: 
+    style.css : 
+js : 
+    paging.js : 83
+    theme.js : 82
+    table-filter.js : 46
+
+Connection : 
+    config.php : 13
+    connection.php : 16
+
+include : 
+    header.php : 23
+    navbar.php : 
+    scripts.php : 
+    topnav.php : 
+
+INDEX: 
+    add-crop-disease.php : 
+    add-crop-event.php : 
+    add-crop-faq.php : 
+    add-data.php : 
+    add-new-blog.php : 
+    add-new-crop-data.php : 
+    add-new-crop.php : 
+    add-seed-info.php : 
+    add-task.php : 
+    blank.php : 
+    contact-messeges.php : 
+    feed-back.php : 
+    index.php : 
+    login.php : 
+    manage-blog.php : 
+    manage-crop-info.php : 
+    manage-crop.php : 
+    manage-data.php : 
+    manage-disease.php : 
+    manage-events.php : 
+    manage-faq.php : 
+    manage-farmer.php : 
+    manage-news.php : 
+    manage-sed-info.php : 
+    manage-updates.php : 
+    send-news.php : 
+    send-updates.php : 
+    settings.php : 
+    view-all-task.php : 
+    view-donation.php : 
+
+Script: 
+    Add-Crop-Info-Scripts: 
+        add-cbi.php : 
+        add-climate.php : 
+        add-earthing-up.php : 
+        add-gap-info.php : 
+        add-harvesting.php : 
+        add-irrigation.php : 
+        add-land-preparation.php : 
+        add-nm.php : 
+        add-nurp.php : 
+        add-root-deep.php : 
+        add-soil.php : 
+        add-sowing.php : 
+        add-spacing-and-pant-population.php : 
+        add-temperature.php : 
+        add-transplanting.php : 
+        add-water.php : 
+        add-yield.php : 
+    Update: 
+        update-cbi.php : 
+        update-climate.php : 
+        update-earthing-up.php : 
+        update-gap.php : 
+        update-harvesting.php : 
+        update-irrigation.php : 
+        update-land.php : 
+        update-nm.php : 
+        update-nursery.php : 
+        update-root.php : 
+        update-soil.php : 
+        update-sowing.php : 
+        update-spacing.php : 
+        update-temperature.php : 
+        update-transplanting.php : 
+        update-water.php : X
+        update-yield.php : 
+    add-blog.php : 
+    add-crop.php :
+    add-disease.php :
+    add-event.php :
+    add-faq.php :
+    add-news.php :
+    add-recent-updates.php :
+    add-seeds.php :
+    add-taskd.php :
+    crop-info.php :
+    delete-crop.php :
+    delete-disease.php :
+    delete-farmer.php :
+    delete-news.php :
+    delete-recent-updates.php :
+    delete-seed.php :
+    deleteDonation.php :
+    getDisease.php :
+    getEvent.php :
+    getEventSeed.php :
+    getFaq.php :
+    getSeed.php :
+    getUpdateCropData.php :
+    login.php :
+    recent-updates.php :
+    saveSystemSettings.php :
+    saveUserSettings.php :
+    update_Contact_messeges.php :
+    update_task.php :
+    update-farmer.php :
+    update-feedback.php :
+    update-seed.php :
+    updateCrop.php :
+    updateDisease.php :

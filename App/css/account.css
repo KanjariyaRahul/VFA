@@ -1,0 +1,83 @@
+main {
+  padding: 0% !important;
+}
+.profile-box {
+  margin-top: 15px;
+  display: grid;
+  grid-template-rows: 0.4fr 1fr;
+  background-color: white;
+  box-shadow: var(--box-shadow);
+  padding: 0.5rem;
+  overflow: hidden;
+  border-radius: var(--card-border-radius);
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.middle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.middle > img {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 1.8rem;
+  border: 2px solid white;
+}
+
+.middle > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.crop{
+  width: auto;
+  height: auto;
+}
+
+/* Farm Card CSS */
+
+
+.card > h1{
+  color: var(--color-primary);
+}
+/* Edit profile Card */
+.edit-profile{
+  display: none;
+}
+.top{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+input{
+  border: 1px solid green;
+  outline: none;
+  padding: 0.5rem !important;
+  font-size: 1rem !important;
+  margin: 1rem !important;
+  width: -webkit-fill-available !important;
+}
+
+.edit-profile-body{
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  .recent-updates {
+    display: none;
+  }
+  .right{
+    margin: 0% !important;
+  }
+}
