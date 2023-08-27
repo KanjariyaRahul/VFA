@@ -595,7 +595,7 @@ if (isset($_GET['lg']) && $_GET['lg'] == "true") {
           <span class="ml-3 text-xl">VFA</span>
         </a>
         <p class="text-sm text-gray-500 sm:ml-6 sm:mt-0 mt-4">© 2022 VFA —
-          <a href="https://www.instagram.com/hk_kanajariya/" rel="noopener noreferrer" class="text-gray-600 ml-1" target="_blank">@Hardik Kanajariya</a>
+          <a href="https://www.instagram.com/hk_kanajariya/" rel="noopener noreferrer" class="text-gray-600 ml-1" target="_blank">@Rahul Kanjariya / @Hardik Kanjariya</a>
         </p>
         <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
           <a class="text-gray-500">
