@@ -536,7 +536,7 @@ if (isset($_GET['lg']) && $_GET['lg'] == "true") {
               <span class="material-icons-sharp">
                 call
               </span>&nbsp;&nbsp;
-              <a href="tel:8996632652" class="leading-relaxed">+91 89899 99899</a>
+              <a href="tel:8996632652" class="leading-relaxed">+91 9265614292</a>
             </div>
           </div>
         </div>
@@ -595,7 +595,7 @@ if (isset($_GET['lg']) && $_GET['lg'] == "true") {
           <span class="ml-3 text-xl">VFA</span>
         </a>
         <p class="text-sm text-gray-500 sm:ml-6 sm:mt-0 mt-4">© 2022 VFA —
-          <a href="https://www.instagram.com/hk_kanajariya/" rel="noopener noreferrer" class="text-gray-600 ml-1" target="_blank">@Rahul Kanjariya / @Hardik Kanjariya</a>
+          <a href="https://www.instagram.com/hk_kanajariya/" rel="noopener noreferrer" class="text-gray-600 ml-1" target="_blank">@Rahul Kanjariya</a>
         </p>
         <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
           <a class="text-gray-500">
